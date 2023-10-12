@@ -1,0 +1,382 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 1400px;
+    height: 890px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    background-color: #2F1893;
+    top: 17385px;
+    left: -111px;
+}
+
+
+#header-container{
+    display: flex;
+    flex-direction: column;
+    width: 972px;
+    height: 40px;
+    margin-top: 65px;
+    margin-left: 213px;
+}
+#header-container .nav-bar-container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+#header-container .nav-bar-container .register{
+    display: flex;
+    width: 40%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+#header-container .nav-bar-container .register a{
+    display: flex;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 12px;
+}
+#header-container .nav-bar-container .nav-bar{
+    display: flex;
+    width: 60%;
+    height: 100%;
+}
+#header-container .nav-bar-container .nav-bar nav{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+#header-container .nav-bar-container .nav-bar nav ul{
+    display: flex;
+    width: 90%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 30px;
+    padding: 0 30px;
+}
+#header-container .nav-bar-container .nav-bar nav ul li{
+    display: flex;
+    list-style: none;
+    height: 100%;
+    width: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+#header-container .nav-bar-container .nav-bar nav ul li a{
+    display: flex;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+#header-container .nav-bar-container .nav-bar .btn1{
+    display: flex;
+    width: 120px;
+    height: 35px;
+    background: rgb(255, 0, 157);
+	align-items: center;
+	justify-content: center;
+    border-radius: 22px;
+}
+#header-container .nav-bar-container .nav-bar .btn1 a{
+    display: flex;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+#home-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: auto;
+    width: 972px;
+    height: 850px;
+}
+
+#home-container .home-data{
+    display: grid;
+    width: 427px;
+    height: 496px;
+    margin: auto;
+    top: 219px;
+    left: 209px;
+}
+#home-container .home-data .btn2{
+    display: grid;
+    width: 100px;
+    height: 30px;
+    background: rgb(255, 0, 157);
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+#home-container .home-data .btn2 a{
+    display: flex;
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+}
+#home-container .signup-page{
+    display: grid;
+    width: 470px;
+    height: 600px;
+    top: 187px;
+    left: 15px;
+    margin: auto;
+    background: #fff;
+    border: 2px solid #fff;
+}
+#home-container .signup-page form{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+}
+#home-container .signup-page form h3{
+    display: grid;
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 52px;
+    letter-spacing: -0.4 px;
+    text-align: Center;
+    color: #1E0E62;
+    width: 247px;
+    height: 52px;
+    top: 235px;
+    left: 829px;
+}
+#home-container .signup-page form .option{
+    display: grid;
+    width: 265px; 
+    height: 26.4px; 
+    top: 471px; 
+    left: 785px;
+}
+#home-container .signup-page form .btn3{
+    display: grid;
+    width: 330px;
+    height: 50px;
+    top: 525px;
+    left: 785px;
+    font-size: 18px;
+    line-height: 26px;
+    align-items: center;
+    font-family: DM Sans;
+    color: #fff;
+    background: #482BE7;
+    border-radius: 25px;
+    border-color: transparent;
+}
+#home-container .signup-page form .btn4{
+    display: grid;
+    width: 330px;
+    height: 50px;
+    top: 525px;
+    left: 785px;
+    font-size: 18px;
+    line-height: 26px;
+    align-items: center;
+    font-family: DM Sans;
+    color: #fff;
+    background: #1DA1F2;
+    border-radius: 25px;
+    border-color: transparent;
+}
+#home-container .signup-page form .m1{
+    display: grid;
+    width: 330px;
+    height: 40px;
+    top: 525px;
+    left: 785px;
+    font-family: DM Sans; 
+    font-weight: 500; 
+    font-size: 18px; 
+    line-height: 28px; 
+    
+    
+}
+#home-container .signup-page form .m1 span{
+    width: auto;
+    height: 28px;
+    top: 716px; 
+    left: 815px; 
+    font-size: 18px; 
+   
+}
+#home-container .signup-page form .m1 a{
+    width: 56px; 
+    height: 28px; 
+    top: 716px; 
+    left: 1040px; 
+    color: #25DAC5; 
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+
+
+
+/*--------------------responsive page ----------------*/
+
+@media (max-width: 477px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    body{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+    #header-container{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+        height: auto;
+    }
+    #header-container .nav-bar-container{
+        display: flex;
+        width: 100%;
+    }
+    #header-container .nav-bar-container .register{
+        display: flex;
+        flex-direction: column;
+        width: 26%;
+        margin: 0 1px;
+    }
+    #header-container .nav-bar-container .register a{
+        display: flex;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    #header-container .nav-bar-container .nav-bar{
+        display: flex;
+        width: 74%;
+        overflow: scroll hidden;
+    }
+    #header-container .nav-bar-container .nav-bar nav{
+        display: flex;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    #header-container .nav-bar-container .nav-bar nav ul{
+        display: flex;
+        width: auto;
+        margin-left: 1px;
+        padding: 0 2px;
+    }
+    #header-container .nav-bar-container .nav-bar nav ul li{
+        display: flex;
+        margin: 5px;
+    }
+    #header-container .nav-bar-container .nav-bar .btn1{
+        display: flex;
+        margin: auto; 
+        width: auto;
+        height: auto;
+    }
+    #header-container .nav-bar-container .nav-bar .btn1 a{
+        display: flex;
+        font-size: 18px;
+        color: #fff;
+        font-weight: 500;
+        text-decoration: none;
+    }
+
+
+
+    /*-----------------home page----------------------*/
+    
+    
+    #home-container{
+        display: flex;
+       flex-direction: column;
+        width: 90%;
+        margin: 0 220px;
+        margin-top: 20px;
+    }
+    
+    #home-container .home-data{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: 50%;
+        margin: auto;
+        margin-bottom: 5px;
+    }
+    #home-container .signup-page{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: 50%;
+        border: 2px solid #fff;
+    }
+    #home-container .signup-page form{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    #home-container .signup-page form h3{
+        display: flex;
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+    #home-container .signup-page form .option{
+        display: flex;
+        width: auto; 
+        height: auto; 
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    #home-container .signup-page form .btn3{
+        display: flex;
+        width: 250px;
+        height: 40px;
+        margin: auto;
+        margin-bottom: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+    #home-container .signup-page form .btn4{
+        display: flex;
+        width: 250px;
+        height: 40px;
+        margin: auto;
+        margin-bottom: 10px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    #home-container .signup-page form .m1{
+        display: grid;
+        width: auto;
+        height: auto;
+        margin: auto;
+        margin-top: 30px;   
+        
+    }
+
+}
